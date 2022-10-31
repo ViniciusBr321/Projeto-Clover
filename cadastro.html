@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="ptbr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="img/clover.png">
+    <link rel="stylesheet" href="css/cadastro_cadastro.css"> <!--Css do login-->
+    <link rel="stylesheet" href="css/index_cabeçario.css"><!--Css do cabeçario-->
+    <link rel="stylesheet" href="css/index_social.css"> <!--Css do Social media-->
+    <title>Cadastro</title>
+</head>
+<body>
+    <header>
+        <section class="container"> <!--Cabeçario-->
+            <div class="logo">
+                <span><a href="index.html"><img src="img/cloverlg.png" alt="logo" ></a></span>
+            </div>
+            <div>
+                <span class="text1">Clover</span>
+                <span class="text 2">Seja bem vindo!</span>
+            </div>
+        </section>
+    </header>
+    
+    <main>
+    <section class="caixa">
+        <div class="box"> 
+            <form  class="shadow " action="#" method="post" >
+                <h1><i class="fa-solid fa-user-pen"> Dados</i></h1>
+
+            <div class="tipoPessoa"> <!--Inicio do botão-->
+                <div>
+                    <input type="radio" id="id6" name="flg_tipo_pessoa" value="F" checked="checked">
+                    <label for="id1">Pessoa Física</label>
+                </div>
+                <div>
+                    <input type="radio" id="id5" name="flg_tipo_pessoa" value="J">
+                    <label for="id2">Pessoa Jurídica</label>
+                </div>
+            </div> <!--FIM do botão-->
+
+            <div> <!--INICIO do nome-->
+                <input type="text" name="desc_nome" id="desc_nome" class="inputTextPadrao required" placeholder="Nome Completo" value="" aria-required="true">
+            </div><!--FIM do nome-->
+
+            <div><!--INICIO do cpf-->
+                <input type="text" name="desc_cpf_cnpj" id="desc_cpf_cnpj" class="inputTextPadrao required" placeholder="CPF" value="" maxlength="14" minlength="14">
+            </div><!--FIM do cpf-->
+            
+            <div><!--INICIO do genero-->
+                    <select class="genero">
+                        <option value="m">MASCULINO</option>
+                        <option value="f">FEMININO</option>  
+                    </select>
+                
+            </div><!--FIM do genero-->
+            <input type="text" name="desc_nome" id="desc_nome" class="inputTextPadrao required" placeholder="Endereço" value="" aria-required="true">
+            
+        </div> <!--FIM da box 1-->
+        <div class="box"> 
+            <form class="shadow" action="#" method="post">
+            <h1><i class="fa-solid fa-truck"></i>cadastro</h1>
+            
+            <input type="text" name="" placeholder="Usuário" required>
+            <input type="password" name="" placeholder="Senha" required>
+            <a href="index.html" type="submit" name="" placeholder="Login">Enviar</a>
+            </form>
+        </form>
+        </div>
+    </section>
+            <script src="https://hcaptcha.com/1/api.js" async="" defer=""></script><!--script do captcha-->
+    </main>
+    
+    <footer>
+        <div class="middle"> <!--HTML das midias sociais-->
+            <a class="btn" href="#">
+                <i class="fa-brands fa-facebook"></i>
+            </a>
+            <a class="btn" target="_blank" href="https://www.instagram.com/loja.cloverr/">
+                <i class="fa-brands fa-instagram"></i>
+            </a>
+            <a class="btn" target="_blank" href="https://wa.me/553491241719">
+                <i class="fa-brands fa-whatsapp"></i>
+            </a>
+            <a class="btn" href="#">
+                <i class="fa-brands fa-twitter"></i>
+            </a>
+        <script src="https://kit.fontawesome.com/afa6fb5961.js" crossorigin="anonymous"></script> <!--Link para icones-->
+        </div>
+    </footer>
+    </form>
+</body>
+</html>

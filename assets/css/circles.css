@@ -1,0 +1,47 @@
+.circles{
+    max-width: 100%
+}
+.limitador-circle{
+    max-width: 1200px ;
+    margin: 0 auto;
+}
+.circle-image {
+    display: inline-block;
+    border-radius: 50%;
+    overflow: hidden;
+    width: 200px;
+    height: 200px;
+    gap: 90px;
+  }
+  .circle-image img {
+    gap: 90px;
+    width:  100%;
+    height:  100%;
+  }
+  .circle-image:hover{
+    opacity: 0.5;
+   
+  }
+  .content-circles {
+    height: fit-content;
+    padding-bottom: 40px;
+    display: flex;
+    justify-content: space-around;
+    gap: 2%;
+}
+  .section-title {
+    color: #36362B;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0.3px;
+    text-transform: uppercase;
+    margin-bottom: 35px;
+    border-bottom: 1px solid #36362B;
+}
+.section-title h2 {
+    font-family: 'Secular One', sans-serif;
+    display: inline-block;
+    border-bottom: 2px solid #36362B;
+    margin: 0;
+    font-size: larger;
+}

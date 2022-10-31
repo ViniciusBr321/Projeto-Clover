@@ -1,0 +1,49 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: #E9EFC0;
+}
+strong{
+    font-weight: 700;
+}
+.main-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.titulo_informacoes_de_entrega{
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    font-family: 'Fascinate', cursive;
+}
+.titulo_informacoes_de_entrega h1{
+    font-size: larger;
+    font-weight: 700;
+    font-family: 'Fascinate', cursive;
+}
+.conteudo_informacoes_de_entrega{
+    text-align: center;
+    display: flex;
+    width: 83%;
+    background-color: #fff;
+    margin: 0;
+    padding: 20px;
+    left: 50%;
+    
+    border: 1px solid #000;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: 3px 3px 3px black;
+}
+.conteudo_informacoes_de_entrega p {
+    font-family: 'Fascinate', cursive;
+}
+.conteudo_informacoes_de_entrega strong{
+    font-weight: 700;
+    color: rgb(13, 163, 13);
+}
+main{
+    padding: 30px 0;
+}

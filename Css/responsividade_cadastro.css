@@ -1,0 +1,32 @@
+@media screen and (max-width: 375px){
+    .caixa{
+        left: 270px;
+    }
+    .box{
+        padding: 50px;
+    }
+    .logo{
+        left: 10;
+    }
+}
+@media screen and (max-width: 321px){
+    .caixa{
+        left: 195px;
+        top: 45%;
+    }
+    .box{
+        padding: 5px;
+    }
+    .btn{
+        top: 200px;
+    }
+    .fa-solid{
+        font-size: 20px;
+    }
+    .box input[type = "text"],.box input[type = "password"]{
+        width: 150px;
+    }
+    .box input[type = "text"]:focus,.box input[type = "password"]:focus{
+        width: 220px;
+    }
+}

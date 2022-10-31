@@ -1,0 +1,118 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background:#34495e;
+}
+.logo img{
+    width: 60px;
+    height: 60px;
+    max-width: 100%;
+}
+.caixa{
+    max-width: 100%;
+    width: 100%;
+    
+    max-height: 400px;
+
+    position:relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+.box{
+    width: 300px;
+    padding: 40px;
+    position:relative;
+    
+    top: 50%;
+    background: #191919;
+    text-align: center;
+    box-shadow: 30px -30px 20px rgba(0,0,0,0.3);
+
+}
+.box h1{
+    color: white;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.box input[type = "text"],.box input[type = "password"]{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #3498db;
+    padding: 14px 10px;
+    width: 200px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+}
+.box input[type = "text"]:focus,.box input[type = "password"]:focus{
+    width: 280px;
+    border-color: #2ecc71;
+}
+.box a[type = "submit"]{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #2ecc71;
+    padding: 14px 40px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+    width: fit-content;
+}
+.box a[type = "submit"]:hover{
+    background: #2ecc71;
+}
+.box span a{
+    color: rgb(255, 255, 255) !important;
+}
+.tipoPessoa{
+    margin-top: 10px;
+    justify-content: space-around;
+    display: flex;
+    position: relative;
+    color: #2ecc71;
+}
+.genero{
+    border: 2px solid #2ecc71;
+    color: white !important;
+        display: block;
+        width: 100%;
+        padding: .375rem .75rem;
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 1.5;
+        color: #212529;
+        background: none;
+        background-clip: padding-box;
+        text-align: center;
+        margin: 20px auto;
+        border-radius: 24px;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+       width: 250px;
+        transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.genero option{
+    color: white !important;
+    background-color: #191919;
+}
+@media(max-width: 1100px){
+    .caixa{
+        flex-direction: column;
+        height: fit-content;
+        max-height: 100%;
+        
+    }
+}

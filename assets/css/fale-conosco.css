@@ -1,0 +1,236 @@
+* {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    border: 0;
+    margin-bottom: 0;
+    border-bottom: 0;
+}
+
+main{
+    background-color: #E9EFC0;
+}
+
+/*Central de ajuda*/
+#central {
+    text-align: center;
+    font-size: 30px;
+    padding-top: 25px;
+}
+
+.box-pesquisa {
+    text-align: center;
+}
+
+#busca-faq {
+    color: #232323;
+    font-size: .8125em;
+    padding-left: 24px;
+    width: 400px;
+    height: 35px;
+    background-color: #fff;
+    border: 1px solid black;
+}
+.dontfound{
+    background-color: #DCDCDC;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    padding-top: 20px ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+/*Perguntas frequentes*/
+#conteudo-fale-conosco {
+    display: flex;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    left: 50%;
+    border: 1px solid #000;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: 3px 3px 3px black;
+    background-color: #fff;
+}
+
+.tabela1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+#sub-t {
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Fascinate', cursive;
+}
+
+li {
+    padding: 5px;
+    font-family: 'Fascinate', cursive;
+}
+li strong{
+    color: rgb(13, 163, 13);
+    font-family: "Montserrat",Arial,Verdana,sans-serif;
+}
+#sub-para {
+    text-align: center;
+    font-family: 'Fascinate', cursive;
+}
+
+/*Formulário*/
+#sub-t2 {
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Fascinate', cursive;
+}
+
+
+input,
+textarea,
+button {
+    border-radius: 5px;
+    font-family: 'Fascinate', cursive;
+}
+
+.campo {
+    margin-bottom: 1em;
+    display: flex;
+    gap: 10px;
+    font-family: 'Fascinate', cursive;
+}
+
+
+.campo label {
+    margin-bottom: 0.2em;
+    color: #000;
+    display: block;
+    font-family: 'Fascinate', cursive;
+}
+
+fieldset.grupo .campo {
+    float: left;
+    margin-right: 1em;
+    font-family: 'Fascinate', cursive;
+}
+
+.campo input[type="text"],
+.campo input[type="email"],
+.campo textarea {
+    font-family: 'Fascinate', cursive;
+    padding: 0.2em;
+    background-color: #fff;
+    border: 1px solid #4E944F;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+    display: block;
+}
+
+.campo input:focus,
+.campo textarea:focus {
+    background: #B4E197;
+    font-family: 'Fascinate', cursive;
+}
+
+.botao {
+    font-size: 1.2em;
+    background: #4E944F;
+    border: 0;
+    margin-top: 1em;
+    color: #ffffff;
+    padding: 0.2em 0.6em;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+    font-family: 'Fascinate', cursive;
+ 
+}
+
+.botao:hover {
+    background: #B4E197;
+    box-shadow: inset 2px 2px 2px rgba(0, 0, 0, 0.2);
+    text-shadow: none;
+    font-family: 'Fascinate', cursive;
+}
+/*Contato*/
+.main-batata{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Fascinate', cursive;
+}
+.main-batata h1{
+    font-size: 25px;
+    font-family: 'Fascinate', cursive;
+}
+.main-leite{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Fascinate', cursive;
+}
+.main-leite img{
+    height: 60px;
+    width: 80px;
+
+}
+.main-toddy{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Fascinate', cursive;
+}
+.main-toddy img{
+    height: 60px;
+    width: 70px;
+    font-family: 'Fascinate', cursive;
+}
+.main-h3{
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Fascinate', cursive;
+}
+p{
+    margin: 0 !important;
+    font-family: 'Fascinate', cursive;
+}
+.main-cabide{
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    font-family: 'Fascinate', cursive;
+}
+@media(max-width: 580px){
+    #busca-faq{
+        width: 220px;
+    }
+    #conteudo-fale-conosco{
+        width: 90%;
+    }
+    .content-form{
+        width: 100%;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .campo{
+        flex-direction: column;
+        max-width: 100%;
+    }
+    #duvida1{
+        width: 100% !important;
+        height: 70px;
+    }
+    .main-cabide{
+        gap: 30px;
+    }
+}

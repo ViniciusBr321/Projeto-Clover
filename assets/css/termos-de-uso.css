@@ -1,0 +1,32 @@
+.side-padding{
+    padding: 2vw 9vw 2vw 9vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.content{
+    padding: 20px;
+    border: 1px solid black;
+    box-shadow: 3px 3px 3px black;
+    background-color: #fff;
+}
+.side-padding h1{
+    font-size: larger;
+    font-weight: 700;
+    font-family: 'Fascinate', cursive;
+    text-transform: uppercase;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.content strong{
+    font-weight: 700;
+    color: rgb(13, 163, 13);
+}
+.content p{
+    font-family: 'Fascinate', cursive;
+    margin-bottom: 20px;
+}
+.content span{
+    font-weight: 700;
+    color: rgb(13, 163, 13);
+}

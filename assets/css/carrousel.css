@@ -1,0 +1,85 @@
+
+.degra{
+    max-width: 100%;
+    width: auto;
+    max-height: 600px;
+    height: 100%;
+    padding-top: 20px  ;
+    padding-bottom:40px;
+    
+}
+
+#carousel_geral{
+    background: gray;
+    width: 66%;
+    margin-top: 20px;
+    border: 2px solid black !important;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 3px 3px 3px black;
+    max-height: 30em;
+}
+.img_banner3{
+    height: 476px;
+    width: 100%;
+}
+.img_banner2{
+    height: 476px;
+    width: 100%;
+}
+.img_banner1{
+    height: 476px;
+    width: 100%;
+}
+
+.carousel {
+    margin-bottom: 4rem;
+}
+
+
+.carousel-caption {
+    bottom: 3rem;
+    z-index: 10;
+}
+
+
+.carousel-item {
+    height: auto;
+}
+@media(max-width: 600px){
+
+    #carousel_geral{
+        max-height: 280px;
+        width: 98%;
+    }
+    .img_banner3{
+        height: 276px;
+        width: 100%;
+    }
+    .img_banner2{
+        height: 276px;
+        width: 100%;
+    }
+    .img_banner1{
+        height: 276px;
+        width: 100%;
+    }
+}
+@media screen and (max-width: 1280px) and (min-width:601px){
+    #carousel_geral{
+        max-height: 320px;
+        width: 98%;
+    }
+    .img_banner3{
+        height: 316px;
+        width: 100%;
+    }
+    .img_banner2{
+        height: 316px;
+        width: 100%;
+    }
+    .img_banner1{
+        height: 316px;
+        width: 100%;
+    }
+}

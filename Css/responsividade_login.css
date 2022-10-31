@@ -1,0 +1,125 @@
+/*LARGURA DO LOGIN*/
+@media screen and (max-width: 430px){
+    .btn{
+        padding: 20px;
+        top: -170px;
+    }
+}
+@media screen and (max-width: 425px){
+    .box{
+        width: 70%;
+        top: 37%;
+    }
+    .box input[type = "text"]{
+        width: 50%;
+        
+    }
+    .box input[type = "text"]:focus{
+        width: 180px;
+    }
+    .box input[type = "submit"]{
+        width: 50%;
+        margin: center;
+    }
+    .box input[type = "submit"]:hover{
+        width: 70%;
+        margin: center;
+    }
+    .box h1{
+        width: 50%;
+        margin: auto;
+    }
+    .box h1{
+        width: 50%;
+        margin: auto;
+    }
+    .box input[type = "password"]{
+        width: 50%;
+    }
+    .box input[type = "password"]:focus{
+        width: 180px;
+    }
+}
+@media screen and (max-width: 320px){
+    .text1{
+        font-size: 46px;
+        text-align: center;
+    }
+    .text2{
+            text-align: center;
+    }
+    .btn{
+        padding: 5px;
+    }
+}
+/*ALTURA DO LOGIN*/
+@media screen and (max-height: 852px){
+    .box{
+        top: 380px;
+    }
+    .btn{
+        top: -90px;
+    }
+}
+@media screen and (max-height: 800px){
+    .btn{
+        top: -50px;
+    }
+}
+@media screen and (max-height: 770px){
+    .btn{
+        top: -45px;
+    }
+    .box{
+        top: 375px;
+    }
+}
+@media screen and (max-height: 729px){
+    .btn{
+        top: -3px;
+    }
+}
+@media screen and (max-height: 726px){
+    .btn{
+        top: -30px;
+    }
+}
+@media screen and (max-height: 680px){
+    .btn{
+        top: 28px;
+    }
+}
+@media screen and (max-height: 667px){
+    .box{
+        top: 57%;
+    }
+    .btn{
+        top: 48px;
+    }
+}
+@media screen and (max-height: 635px){
+    .btn{
+        top: 115px;
+    }
+    .box{
+        top: 64%;
+    }
+}
+@media screen and (max-height: 550px){
+    .btn{
+        top: 150px;
+        padding: 10px;
+    }
+    .box{
+        top: 72%;
+    }
+}
+@media screen and (max-height: 487px){
+    .btn{
+        top: 196px;
+    }
+    .box{
+        top: 79%;
+    }
+    
+}
